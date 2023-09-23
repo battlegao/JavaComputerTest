@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaComputerTest.iml" filepath="$PROJECT_DIR$/.idea/JavaComputerTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/acurd/acurd.iml" filepath="$PROJECT_DIR$/acurd/acurd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bcurd/bcurd.iml" filepath="$PROJECT_DIR$/bcurd/bcurd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookcurd/bookcurd.iml" filepath="$PROJECT_DIR$/bookcurd/bookcurd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mycrud/mycrud.iml" filepath="$PROJECT_DIR$/mycrud/mycrud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myspringdemo/myspringdemo.iml" filepath="$PROJECT_DIR$/myspringdemo/myspringdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spdemo/spdemo.iml" filepath="$PROJECT_DIR$/spdemo/spdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student-curd/student-curd.iml" filepath="$PROJECT_DIR$/student-curd/student-curd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userscurd/userscurd.iml" filepath="$PROJECT_DIR$/userscurd/userscurd.iml" />
+    </modules>
+  </component>
+</project>

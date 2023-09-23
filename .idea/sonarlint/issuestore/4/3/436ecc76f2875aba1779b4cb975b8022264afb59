@@ -1,0 +1,4 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™“Úúıÿÿÿÿ
+q	java:S116"URename this field "Usermapper" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¯â8ô¯æ©1
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÒæ£8ÔáÔæ©1

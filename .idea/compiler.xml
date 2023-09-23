@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="acurd" />
+        <module name="myspringdemo" />
+        <module name="mycrud" />
+        <module name="userscurd" />
+        <module name="bcurd" />
+        <module name="spdemo" />
+        <module name="bookcurd" />
+        <module name="student-curd" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="acurd" target="1.8" />
+      <module name="bcurd" target="1.8" />
+      <module name="bookcurd" target="1.8" />
+      <module name="foodcurd" target="17" />
+      <module name="mycrud" target="1.8" />
+      <module name="myspdemo" target="1.8" />
+      <module name="myspringdemo" target="1.8" />
+      <module name="spdemo" target="1.8" />
+      <module name="student-curd" target="1.8" />
+      <module name="usercurd" target="1.8" />
+      <module name="userscurd" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="acurd" options="-parameters" />
+      <module name="bcurd" options="-parameters" />
+      <module name="bookcurd" options="-parameters" />
+      <module name="foodcurd" options="-parameters" />
+      <module name="mycrud" options="-parameters" />
+      <module name="myspdemo" options="-parameters" />
+      <module name="myspringdemo" options="-parameters" />
+      <module name="spdemo" options="-parameters" />
+      <module name="student-curd" options="-parameters" />
+      <module name="usercurd" options="-parameters" />
+      <module name="userscurd" options="-parameters" />
+    </option>
+  </component>
+</project>

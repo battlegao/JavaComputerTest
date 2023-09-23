@@ -1,0 +1,12 @@
+server:
+  port: 8081   #本机的端口号
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/javacode?useUnicode=true&characterEncoding=utf-8 &useSSL=true&serverTimezone=Asia/Shanghai
+    username: root
+    password: 8888
+
+mybatis:
+  mapper-locations: classpath:/Mapper/*.xml
+  type-aliases-package: com.battlegao.usercurd.Entity    #这个是扫描到Entity实体包的路径，可根据自己的配置

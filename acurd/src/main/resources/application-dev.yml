@@ -1,0 +1,21 @@
+#服务器端口配置
+server:
+  port: 8081
+
+#数据库配置
+spring:
+  datasource:
+    username: root
+    password: 8888
+    url: jdbc:mysql://localhost:3306/javacode?useUnicode=true&characterEncoding=utf-8&nullCatalogMeansCurrent=true&useSSL=true&&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#mybatis配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.battlegao.acurd.entity
+
+#showSQL
+logging:
+  level:
+    com.example.demo.entity: debug

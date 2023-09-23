@@ -1,0 +1,27 @@
+server:
+  servlet:
+#    context-path: /springbootdemo   # 配置路径
+  port: 8081  # 配置端口号
+spring:
+  web:
+    resources:
+      static-locations: classpath:/static/,classpath:/templates/
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/javacode?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: 8888
+
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  freemarker:
+    cache: false # 页面不加载缓存，修改即使生效
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true # 下划线驼峰设置
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   # 打印SQL语句
+  mapper-locations: classpath:mapper/*.xml    # 配置数据库操作文件
+  type-aliases-package: com.hnucm.springbootdemo.model  # 配置数据来源

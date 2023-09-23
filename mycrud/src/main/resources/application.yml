@@ -1,0 +1,19 @@
+spring:
+  web:
+    resources:
+      static-locations: classpath:/static/,classpath:/templates/
+  datasource:
+    url: jdbc:mysql://localhost:3306/javacode
+    username: root
+    password: 8888
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  freemarker:
+    cache: false # 页面不加载缓存，修改即使生效
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true # 下划线驼峰设置
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl   # 打印SQL语句

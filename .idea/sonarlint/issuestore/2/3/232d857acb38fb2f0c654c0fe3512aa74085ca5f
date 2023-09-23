@@ -1,0 +1,13 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(®èşÿÿÿÿ8½Ö¡è©1
+w
+java:S1192$"UDefine a constant instead of duplicating this literal "redirect:/index.html" 3 times.(™ôÓÕúÿÿÿÿ8½Ö¡è©1
+
+java:S1130)"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(åÁàÙÿÿÿÿÿ8º›¢è©1
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(£ùÿÿÿÿ8ÊÖ¡è©1
+Y
+java:S1854:"<Remove this useless assignment to local variable "userById".(¼˜ÿ8ËÖ¡è©1
+J
+java:S1481:"-Remove this unused "userById" local variable.(¼˜ÿ8ÌÖ¡è©1
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(Ø¼¢ƒ8ÌÖ¡è©1
