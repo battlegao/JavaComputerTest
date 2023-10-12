@@ -1,0 +1,24 @@
+server:
+  servlet:
+    context-path: /   # 配置路径
+
+  port: 8080  # 配置端口号
+spring:
+  datasource:
+    username: root    # 数据库连接用户名
+    password: 8888  # 数据库连接密码
+    # 配置数据库    bookstore 是数据库名称
+    url: jdbc:mysql://localhost:3306/library_system?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    # 配置JDBC驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml    # 配置数据库操作文件
+  type-aliases-package: com.battlegao.bookcurd.model  # 配置数据来源
+
+#showSql
+logging:
+  level:
+    com:
+      hnucm:
+        springboot: debug

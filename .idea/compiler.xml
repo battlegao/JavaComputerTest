@@ -13,6 +13,9 @@
         <module name="userscurd" />
         <module name="bcurd" />
         <module name="spdemo" />
+        <module name="yudao-sso-demo-by-code" />
+        <module name="yudao-sso-demo-by-password" />
+        <module name="library_system" />
         <module name="bookcurd" />
         <module name="student-curd" />
       </profile>
@@ -22,6 +25,7 @@
       <module name="bcurd" target="1.8" />
       <module name="bookcurd" target="1.8" />
       <module name="foodcurd" target="17" />
+      <module name="library_system" target="1.8" />
       <module name="mycrud" target="1.8" />
       <module name="myspdemo" target="1.8" />
       <module name="myspringdemo" target="1.8" />
@@ -29,6 +33,8 @@
       <module name="student-curd" target="1.8" />
       <module name="usercurd" target="1.8" />
       <module name="userscurd" target="1.8" />
+      <module name="yudao-sso-demo-by-code" target="8" />
+      <module name="yudao-sso-demo-by-password" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -37,6 +43,7 @@
       <module name="bcurd" options="-parameters" />
       <module name="bookcurd" options="-parameters" />
       <module name="foodcurd" options="-parameters" />
+      <module name="library_system" options="-parameters" />
       <module name="mycrud" options="-parameters" />
       <module name="myspdemo" options="-parameters" />
       <module name="myspringdemo" options="-parameters" />

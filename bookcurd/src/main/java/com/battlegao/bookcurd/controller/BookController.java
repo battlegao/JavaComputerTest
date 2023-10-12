@@ -20,7 +20,6 @@ public class BookController {
     @RequestMapping("/addBook")
     public Result addBook(Book book) {
 
-
         //打印需要加入的书籍信息
         System.out.println(book);
         //利用服务层接口方法进行功能实现
