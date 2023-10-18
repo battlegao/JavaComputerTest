@@ -11,11 +11,11 @@
         <module name="myspringdemo" />
         <module name="mycrud" />
         <module name="userscurd" />
+        <module name="teachercrud" />
         <module name="bcurd" />
         <module name="spdemo" />
         <module name="yudao-sso-demo-by-code" />
         <module name="yudao-sso-demo-by-password" />
-        <module name="library_system" />
         <module name="mybatis-web-bank" />
         <module name="bookcurd" />
         <module name="student-curd" />
@@ -26,11 +26,12 @@
       <module name="bcurd" target="1.8" />
       <module name="bookcurd" target="1.8" />
       <module name="library_system" target="1.8" />
-      <module name="mybatis-web-bank" target="1.8" />
+      <module name="mybatis-web-bank" target="1.7" />
       <module name="mycrud" target="1.8" />
       <module name="myspringdemo" target="1.8" />
       <module name="spdemo" target="1.8" />
       <module name="student-curd" target="1.8" />
+      <module name="teachercrud" target="1.8" />
       <module name="userscurd" target="1.8" />
       <module name="yudao-sso-demo-by-code" target="8" />
       <module name="yudao-sso-demo-by-password" target="8" />
@@ -46,6 +47,7 @@
       <module name="myspringdemo" options="-parameters" />
       <module name="spdemo" options="-parameters" />
       <module name="student-curd" options="-parameters" />
+      <module name="teachercrud" options="-parameters" />
       <module name="userscurd" options="-parameters" />
     </option>
   </component>

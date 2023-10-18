@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="javaMapperPackage" value="com.battlegao.library.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/library_system/src/main/java" />
+        <option name="javaModelPackage" value="com.battlegao.library.domain" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/library_system/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="library_system" />
+        <option name="lombokAllArgConstructor" value="true" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="lombokNoArgsConstructor" value="true" />
+        <option name="mapperAnnotaion" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="library_system">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.battlegao.library.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/library_system/src/main/java" />
+                  <option name="javaModelPacakge" value="com.battlegao.library.domain" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/library_system/src/main/java" />
+                  <option name="xmlPackage" value="mapper" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/library_system/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="library_system:student">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="Student" />
+                  <option name="moduleName" value="library_system" />
+                  <option name="sequenceColumn" value="" />
+                  <option name="sequenceId" value="" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="xmlMapperPackage" value="mapper" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/library_system/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>

@@ -23,12 +23,12 @@ public class StudentController {
         return studentService.findById(id);
     }
 
-    @PostMapping
+    @PostMapping("/insert")
     public void insert(@RequestBody Student student) {
         studentService.insert(student);
     }
 
-    @PutMapping
+    @PutMapping("/update")
     public void update(@RequestBody Student student) {
         studentService.update(student);
     }

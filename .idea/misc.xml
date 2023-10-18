@@ -14,8 +14,8 @@
         <option value="$PROJECT_DIR$/student-curd/pom.xml" />
         <option value="$PROJECT_DIR$/yudao-sso-demo-by-code/pom.xml" />
         <option value="$PROJECT_DIR$/yudao-sso-demo-by-password/pom.xml" />
-        <option value="$PROJECT_DIR$/library_system/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-web-bank/pom.xml" />
+        <option value="$PROJECT_DIR$/teachercrud/pom.xml" />
       </list>
     </option>
   </component>
